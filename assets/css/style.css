@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+}
+/*corrige el tamaño del titulo Iguana*/
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+/*corrige el tamaño de letra de caracteristica*/
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+	
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+/*modifica los margenes hacia arriba*/
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+/*modificación tamaño de iconos*/
+i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+}
+/*modifica el contenido de la caja (texto)*/
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header (modificar color y centrar del texto Iguana*/
+
+.header {
+    color: #eeebeb;
+    text-align: center;
+}
+
+/* Banner modifica el tamaño de img del banner*/
+
+.banner {
+    width: 1280px;
+    height: 727px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 1era sec */
+
+.desc-section {
+    color: #ffffff;
+    padding: 75px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-section-1 {
+    width: 50%;
+}
+/*modifica tamño de img*/
+.img-section-1 {
+    width: 40%;
+	
+}
+
+/* 2da secc modifica distribución de elementos dentro de caja*/
+
+.icons-sec {
+    background-color: #1e1a13;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+	
+}
+
+/*modificador de caja Caracteristicas*/
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+	
+}
+/*corrige la distribución de icons*/
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-item {
+    font-size: 24px;
+}
+
+
+/* 3era secc modifica distribución de img*/
+
+.iguanas {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+/*modifica tamaño de img*/
+.img-iguana {
+    width: 300px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1e1a13;
+    color: #ffffff;
+    padding: 45px;
+}
